@@ -1,0 +1,8 @@
+<!doctype html>
+<html lang="fr"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="theme-color" content="#090914"><title>Kamikaze IA — Studio multimédia</title><link rel="stylesheet" href="/style.css"></head>
+<body><header><strong>KAMIKAZE <span>IA</span></strong><small id="status">Vérification des moteurs…</small></header><main><h1>Donne vie à tes <em>idées.</em></h1><p>Studio multimédia : images, vidéos et assistant IA.</p>
+<nav><button data-panel="image">Images</button><button data-panel="video">Vidéos</button><button data-panel="chat">Assistant IA</button></nav>
+<section id="image" class="panel"><h2>Générateur d'images</h2><textarea id="imagePrompt" placeholder="Décris l'image à créer…"></textarea><button id="makeImage">Générer l'image</button><div id="imageResult" class="result">Ton image apparaîtra ici.</div></section>
+<section id="video" class="panel" hidden><h2>Générateur vidéo</h2><textarea id="videoPrompt" placeholder="Décris la vidéo à créer…"></textarea><button id="makeVideo">Générer la vidéo</button><div id="videoResult" class="result">Ta vidéo apparaîtra ici.</div></section>
+<section id="chat" class="panel" hidden><h2>Assistant IA</h2><textarea id="chatPrompt" placeholder="Écris ton message…"></textarea><button id="sendChat">Envoyer</button><div id="chatResult" class="result"></div></section>
+</main><script src="/app.js" defer></script></body></html>
